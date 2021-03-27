@@ -1,5 +1,5 @@
 /* basic style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -10,10 +10,10 @@ body {
     display: block;
     text-align: right;
 }
-.header img {
+.header_img {
     width: 100%;
 }
-.header .header__link {
+.header__link {
     font-family: fantasy, cursive;
 }
 
@@ -57,8 +57,8 @@ button:hover {
     color: #3a3a3a;
 }
 /* heading */
-h3,
-label[for="new-task"] {
+.h3,
+.add-item__lebel {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -88,11 +88,8 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-adding-item__input {
+.adding-item__input {
     width: 318px;
-}
-p > button:hover {
-    color: #0fc57c;
 }
 
 /* task list */
