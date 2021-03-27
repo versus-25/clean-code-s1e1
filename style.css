@@ -121,12 +121,12 @@ li >    input[type="text"] {
 li > button.delete:hover {
     color: #cf2323;
 }
-button.delete img {
+.task-block__img {
     height: 2em;
     transform: rotatez(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.task-block__img:hover {
     transform: rotatez(0);
 }
 
