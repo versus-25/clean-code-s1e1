@@ -118,7 +118,7 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-li > button.delete:hover {
+.task-block__btn-del :hover {
     color: #cf2323;
 }
 .task-block__img {
