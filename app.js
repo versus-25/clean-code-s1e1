@@ -9,7 +9,7 @@
 
 var taskInput = document.querySelector('.add-item__input'); //Add a new task.
 var addButton = document.getElementsByTagName('button')[0]; //first button
-var incompleteTaskHolder = document.getElementById('incompletetasks'); //document.getElementById('incompletetasks');//document.querySelector('.active-tasks'); //ul of #incompleteTasks
+var incompleteTaskHolder = document.querySelector('.active-tasks'); // //document.getElementById('incompletetasks');//document.querySelector('.active-tasks'); //ul of #incompleteTasks
 var completedTasksHolder = document.getElementById('completed-tasks'); //completed-tasks
 
 //New task list item
