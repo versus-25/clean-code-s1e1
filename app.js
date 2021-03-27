@@ -10,7 +10,7 @@
 var taskInput = document.querySelector('.add-item__input'); //Add a new task.
 var addButton = document.getElementsByTagName('button')[0]; //first button
 var incompleteTaskHolder = document.querySelector('.active-tasks'); // //document.getElementById('incompletetasks');//document.querySelector('.active-tasks'); //ul of #incompleteTasks
-var completedTasksHolder = document.getElementById('completed-tasks'); //completed-tasks
+var completedTasksHolder = document.querySelector('.completed-tasks'); //completed-tasks
 
 //New task list item
 var createNewTaskElement = function (taskString) {
@@ -77,10 +77,10 @@ var editTask = function () {
   var editInput = listItem.querySelector('input[type=text]');
   var label = listItem.querySelector('label');
   var editBtn = listItem.querySelector('.edit');
-  var containsClass = listItem.classList.contains('editmode');
-  //If class of the parent is .editmode
+  var containsClass = listItem.classList.contains('edited');
+  //If class of the parent is .edited
   if (containsClass) {
-    //switch to .editmode
+    //switch to .edited
     //label becomes the inputs value.
     label.innerText = editInput.value;
     editBtn.innerText = 'Edit';
@@ -89,8 +89,8 @@ var editTask = function () {
     editBtn.innerText = 'Save';
   }
 
-  //toggle .editmode on the parent.
-  listItem.classList.toggle('editmode');
+  //toggle .edited on the parent.
+  listItem.classList.toggle('edited');
 };
 
 //Delete task.

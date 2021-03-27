@@ -20,19 +20,19 @@
       </p>
       <h3 class="h3">Todo</h3>
       <ul class="active-tasks">
-        <li>
-          <input type="checkbox">
+        <li class="active-tasks__item">
+          <input class="checkbox" type="checkbox">
           <label class="task">Pay Bills</label>
-          <input type="text">
+          <input class="task"type="text">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="editmode">
-          <input type="checkbox">
+        <li class="active-tasks__item edited">
+          <input class="checkbox" type="checkbox">
           <label class="task">Go Shopping</label>
-          <input type="text" value="go shopping" class="task">
+          <input class="task" type="text" value="go shopping">
           <button class="edit">Save</button>
           <button class="delete">
             <img src="./remove.svg">
@@ -40,11 +40,11 @@
         </li>
       </ul>
         <h3>Completed</h3>
-        <ul id="completed-tasks">
-          <li>
-            <input type="checkbox" checked>
+        <ul class="completed-tasks">
+          <li class="completed-tasks__item">
+            <input class="checkbox" type="checkbox" checked>
             <label class="task">See the Doctor</label>
-            <input type="text" class="task">
+            <input class="task" type="text">
             <button class="edit">Edit</button>
             <button class="delete">
               <img src="./remove.svg">
