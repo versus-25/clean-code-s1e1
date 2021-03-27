@@ -148,3 +148,7 @@ ul li.edited input[type='text'] {
 .edited .task-block__text {
   display: none;
 }
+.completed-tasks .task-block__text {
+  text-decoration: line-through;
+  color: #888;
+}
