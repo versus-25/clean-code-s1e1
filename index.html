@@ -5,19 +5,19 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
+  <header class="header">
+    <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+  </header>
   <body class="page">
-    <div class="header">
-      <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
-      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main-wrapper">
-      <p class="add-item">
+    <main class="main-wrapper">
+      <section class="add-item">
         <label class="add-item__label" for="new-task">Add Item</label>
         <div class="add-item__btn-wrap">
           <input class="add-item__input" type="text">
           <button class="add-item__btn">Add</button>
         </div>
-      </p>
+      </section>
       <h3 class="h3">Todo</h3>
       <ul class="active-tasks">
         <li class="task-block">
@@ -51,7 +51,7 @@
             </button>
           </li>
       </ul>
-    </div> 
+    </main> 
     <script src="app.js"></script>
   </body>
 </html>
