@@ -29,7 +29,7 @@
 }
 .add-item__input,
 .task-block__text,
-.task {
+.task-block__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
